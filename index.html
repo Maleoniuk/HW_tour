@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style type="text/css">
+  .wrapper{
+      display:flex;
+      background-color: rgb(253, 253, 253);
+    
+      justify-content: center;
+    
+           
+  }
+  .container{
+      width:50%;
+      height:100%;
+      background-color:rgb(250, 245, 245);
+ 
+      
+  }
+  header{
+      width:100%;
+      height:50px;
+ 
+  }
+  nav{
+ 
+  display: flex;
+ width:200px;
+
+ margin-top: 50px;
+  align-self: auto
+
+
+  }
+
+ 
+  
+  
+
+section{
+  width:30%;
+  display: inline-flex;
+  background-color:rgb(241, 255, 192);
+  height:500px;
+  
+  }
+
+  *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+footer{
+
+background-color: rgb(161, 170, 161);
+}
+.wrapper>nav>button{
+    width:90%;
+    height:50px;
+    background-color:rgb(212, 212, 212);
+    display: inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content:center;
+    margin: 5px;
+    
+}
+#more {display: none;}
+#more_cam {display: none;}
+#more_r {display: none;}
+#more_p {display: none;}
+nav{
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    margin:5px;
+}
+span{
+    display:flex;
+    width:100%;
+   
+    align-items:center;
+
+}
+   </style>
+   <script src="html2.js"></script>
+   <script>
+       function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+function myFunction_cambodia() {
+  var dots = document.getElementById("dots_cam");
+  var moreText = document.getElementById("more_cam");
+  var btnText = document.getElementById("myBtn_cam");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+function myFunction_royal() {
+  var dots = document.getElementById("dots_r");
+  var moreText = document.getElementById("more_r");
+  var btnText = document.getElementById("myBtn_royal");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+
+function myFunction_pataja() {
+  var dots = document.getElementById("dots_p");
+  var moreText = document.getElementById("more_p");
+  var btnText = document.getElementById("myBtn_p");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+   </script>
+</head>
+<body>
+
+<div class="wrapper">
+<nav><button><a href="https://ru.wikipedia.org/wiki/%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82">About Egipt</a></button>
+  <button><a href="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D1%86%D0%B8%D1%8F">About Turkey</a></button>
+  <button><a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B8%D0%BB%D0%B0%D0%BD%D0%B4">About Thailand</a></button>
+  <button><a href="https://en.wikipedia.org/wiki/Cambodia">About Cambodia</a></button>
+  
+ 
+
+
+
+</nav>
+        
+    <div class="container">
+    <header style="background-color: rgb(192, 189, 185); height: 100px; border-radius: 3px; margin-top:5px;">  <p style="font-size: 15px; color: grey;"id="date"></p>
+        </header>
+  
+  <div style="display:block; margin-left: 10px; margin-top:20px; background-color:yellow"> <div id="list"><h3>information about hotel Sultan: </h3><br/>
+    <div ><img  id="sultan1" src="sultan1.jpg" style="display: inline-block; width: 200px;">
+        <img src="sultan2.jpg" style="display: inline-block; width: 200px;">
+        <img src="sultan3.jpg" style="display: inline-block; width: 200px;">
+     
+    
+    
+    
+    </div>
+   
+    <span>Отель очень удачно расположен в бухте Shark's Bay, на одном из самых лучших пляжей с рифами в Шарме, прямо напротив острова Тиран. Всего в 6 км от аэропорта, в 7 км от Наама Бэй.
+
+    Очень красивый пляж и отличное место для снорклинга прямо за порогом Вашего номера.
+    
+    По соседству от отеля расположены гольф-центр и международный бизнес-центр.
+    В нескольких минутах езды расположены различные развлечения, такие как аквапарк, центр верховой езды, картинг, каток и другие.
+    
+    Если Вы приехали расслабиться, насладитесь известными коралловыми рифами Красного моря или исследуйте окрестности Шарма, ведь отельSultan Gardens идеально для этого расположен.
+</span><span id="dots">...</span>
+    
+    <span id="more">Представьте себе идеальный 5* курорт на берегу Красного моря. Курорт был удостоен нескольких наград за его красоту, песчаный пляж, коралловый риф и роскошные сады. 
+        Здесь Вы можете отдохнуть и повеселиться, мы обеспечим хороший отдых для посетителей любого возраста. У нас очень комфортабельные номера, вкусная еда и приветливый персонал, 
+        который воплотит в жизнь любую Вашу мечту.
+    
+    Откройте для себя отельSultan Gardens Resort в прекрасном Шарм-Эль-Шейхе.Мы ждем Вас для того, чтобы оправдать все ожидания.
+    
+    Sultan Gardens Resort (Султан Гарденс Резорт) - пятитизвёздочный гостиничный комплекс с комфортабельными номерами, вкусной едой и профессиональным сервисом. Отель расположен на 
+    самом берегу Красного моря, где красота частного песчаного пляжа и кораллового рифа дополняется красотой ухоженных зелёных садов.
+    
+  </span>
+    
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+
+   
+    
+    <button id="sultan">show map</button></div></div>
+
+    
+
+
+
+
+    <div style="display:block; margin-left: 10px; margin-top:20px; background-color:pink"> <div id="list_r"><h3>information about hotel Royal Grand Sharm: </h3><br/>
+        <div ><img  id="royal_g" src="rg1.jpg" style="display: inline-block; width: 200px;">
+            <img src="rg2.jpg" style="display: inline-block; width: 200px;">
+            <img src="rg3.jpg" style="display: inline-block; width: 200px;">
+         
+        
+        
+        
+        </div>
+       
+        <span>Найти идеальный семейный отель в Шарм-эль-Шейхе не должно быть сложной задачей. Добро пожаловать в Роял Гран Шарм Отель, прекрасный вариант для размещения подобных вам путешественников.
+
+            Во время пребывания в Роял Гран Шарм Отель гости могут посетить Al Mustafa Mosque (3,9 км) и The Heavenly Cathedral (3,9 км), одни из самых популярных достопримечательностей Шарм-эль-Шейха.
+    </span><span id="dots_r">...</span>
+        
+        <span id="more_r">Роял Гран Шарм Отель предлагает гостям номера, оборудованные ТВ с плоским экраном, кондиционером и мини-баром. Гости в любой момент могут выйти в Сеть благодаря бесплатному Интернету.
+
+            Отель предоставляет такие услуги, как обслуживание номеров, услуги консьержа и терраса на крыше, чтобы сделать пребывание здесь еще более приятным. Также к услугам гостей бассейн и завтрак. У гостей, приехавших на автомобиле, есть доступ к бесплатной парковке.
+            
+            При посещении Шарм-эль-Шейха вам может захотеться отведать крабов в одном из близлежащих ресторанов, например в Fares Seafood или Fares Seafood - IL Mercato.
+            
+            Если вы хотите лучше узнать Шарм-эль-Шейх, посетите исторический музей, например King Tut Museum.
+            
+            Сотрудники Роял Гран Шарм Отель с нетерпением ждут вас в Шарм-эль-Шейхе.</span>
+        
+    <button onclick="myFunction_royal()" id="myBtn_royal">Read more</button>
+    
+    
+       
+        
+        <button id="royal">show map</button></div></div>
+
+
+
+
+        <div style="display:block; margin-left: 10px; margin-top:20px; background-color:green"> <div id="list_p"><h3>Hillside Resort Pattaya
+            Хилсайд Резорт Паттайя </h3><br/>
+            <div ><img  id="royal_g" src="p1.jpg" style="display: inline-block; width: 200px;">
+                <img src="p2.jpg" style="display: inline-block; width: 200px;">
+                <img src="p3.jpg" style="display: inline-block; width: 200px;">
+             
+            
+            
+            
+            </div>
+           
+            <span>Ищете семейный отель в Паттайе? Можете больше не искать. Хилсайд Резорт Паттайя подойдет вам наилучшим образом.
+
+                Близкое расположение к одним из самых популярных достопримечательностей Паттайи, таким как Pattaya Hill Top (0,5 км) и Pattaya City Sign - Viewpoint (1,3 км), делает отель Хилсайд Резорт Паттайя очень привлекательным для туристов.
+                
+                Номера в Хилсайд Резорт Паттайя оборудованы
+        </span><span id="dots_p">...</span>
+            
+            <span id="more_p">кондиционером и холодильником. Гости могут быть постоянно на связи благодаря бесплатному Wi-Fi.
+
+                К вашим услугам во время пребывания в Хилсайд Резорт Паттайя также бассейн и лобби. Ищете, где оставить машину? Хилсайд Резорт Паттайя предлагает бесплатная парковка
+                
+                предоставляется Во время пребывания в Паттайе, возможно, вам захочется посетить некоторые рестораны рядом с Хилсайд Резорт Паттайя, например Cabbages and Condoms (1,0 км), The Sky Gallery Restaurants (0,8 км) и Pattaya Beer Garden (1,5 км).
+                
+                В Паттайе также находится Love Art Park, популярный монумент, расположенный не очень далеко от отеля Хилсайд Резорт Паттайя.
+                
+                Сотрудники Хилсайд Резорт Паттайя с нетерпением вас ждут. Вы будете приятно удивлены уровнем обслуживания.</span>
+            
+        <button onclick="myFunction_pataja()" id="myBtn_p">Read more</button>
+        
+        
+           
+            
+            <button id="pataja">show map</button></div></div>
+        
+
+
+
+
+
+
+        <div style="display:block; margin-left: 10px; margin-top:20px; background-color:green"> <div id="list_cam"><h3>Ren Resort Cambodia
+           </h3><br/>
+            <div ><img  id="royal_g" src="cam1.jpg" style="display: inline-block; width: 200px;">
+                <img src="cam2.jpg" style="display: inline-block; width: 200px;">
+                <img src="cam3.jpg" style="display: inline-block; width: 200px;">
+             
+            
+            
+            
+            </div>
+           
+            <span>Курортный отель Ren с открытым бассейном расположен на пляже Отрес 2. Из отеля открывается красивый вид на океан. Гостям этого современного курортного отеля предлагается бесплатный завтрак, который сервируют на пляже в ресторане Ren. Отель находится в 8 км от центра Сиануквиля.
+        </span><span id="dots_cam">...</span>
+            
+            <span id="more_cam">Роскошно оформленные номера оснащены кондиционером, телевизором с плоским экраном, мини-баром и сейфом. Из некоторых номеров открывается вид на море или пляж. В распоряжении гостей собственная ванная комната с душем.
+
+                Гости курортного отеля могут отдохнуть в изысканном баре и на шезлонгах на открытом воздухе. На территории обустроена бесплатная парковка.
+                
+                Курортный отель Ren находится в 6,6 км от пляжа Серендипити и в 7,3 км от пляжа Очхеутеал. До супермаркета Samudera — 7,9 км. Расстояние до международного аэропорта Сиануквиля составляет 17 км.</span>
+            
+        <button onclick="myFunction_cambodia()" id="myBtn_cam">Read more</button>
+        
+        
+           
+            
+            <button id="cambodia">show map</button></div></div>
+
+
+
+        
+<div style="height:300px"></div>
+<footer style="height:50px;width:100%; text-align:center ; border-radius: 3px; ">All rights reserved</footer>
+</div>
+
+  
+</div>
+
+</div>
+
+
+   
+
+</body>
+</html>
